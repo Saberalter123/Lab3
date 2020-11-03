@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginForm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow >
+
+        <!-- 标题 -->
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:text="ANOROIO APP"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="#FFA200"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <TableRow android:paddingStart="2dp"
+        android:paddingLeft="2dp">
+
+        <!-- 输入用户名的文本框 -->
+        <EditText
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="username"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <TableRow android:paddingStart="2dp"
+        android:paddingLeft="2dp">
+
+        <!-- 输入密码的文本框 -->
+        <EditText
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:text="Cancer"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:background="@drawable/board"/>
+
+        <Button
+            android:text="Sign in"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:background="@drawable/board"
+            />
+    </TableRow>
+
+
+
+</TableLayout>
+

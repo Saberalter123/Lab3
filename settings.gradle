@@ -1,0 +1,5 @@
+include ':actionmodemenu'
+include ':menu'
+include ':alertdialog'
+include ':app'
+rootProject.name = "Android_Lab3"
